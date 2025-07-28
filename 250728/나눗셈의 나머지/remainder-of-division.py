@@ -14,4 +14,5 @@ for i in range(10):
     if arr_count[i]>0:
         SumOf+=arr_count[i]**2
 
+
 print(SumOf)
