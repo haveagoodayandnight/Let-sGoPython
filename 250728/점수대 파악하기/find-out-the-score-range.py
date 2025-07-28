@@ -10,7 +10,8 @@ for elem in arr:
 count_arr=[0]*10
 
 for elem in arr[:count:]:
-    count_arr[elem//10-1]+=1
+    if elem>=10:
+       count_arr[elem//10-1]+=1
 
 for i in range(10,0,-1):
     print(i*10,"-",count_arr[i-1])
