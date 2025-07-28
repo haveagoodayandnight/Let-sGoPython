@@ -10,9 +10,9 @@ while True:
 
 SumOf = 0
 
-for i in range(0,10,1):
+for i in range(10):
     if arr_count[i]>0:
-        SumOf+=arr_count[i]**arr_count[i]
+        SumOf+=arr_count[i]**2
 
-
+print(arr_count)
 print(SumOf)
