@@ -16,3 +16,4 @@ for i in range(arr[1]):
     else:
         for elem in main_arr[arr_input[1]-1:arr_input[2]:1]:
             print(elem,end=" ")
+        print()
