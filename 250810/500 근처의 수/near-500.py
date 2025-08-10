@@ -1,7 +1,7 @@
 arr=list(map(int,input().split()))
 
 minmax=0
-maxmax=0
+maxmax=1000
 
 for elem in arr:
     if elem>500 and maxmax>elem:
