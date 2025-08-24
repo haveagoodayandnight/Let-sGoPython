@@ -1,15 +1,16 @@
-arr1=list()
-arr2=list()
+arr1=[
+    list(map(int,input().split()))
+    for _ in range(3)
+]
 
-
-
-for i in range(3):
-    arr_para=list(map(int,input().split()))
-    arr1.append(arr_para)
 input()
-for i in range(3):
-    arr_para=list(map(int,input().split()))
-    arr2.append(arr_para)
+
+arr2=[
+    list(map(int,input().split()))
+     for _ in range(3)
+]
+
+
 
 for i in range(3):
     for q in range(3):
