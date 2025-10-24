@@ -23,8 +23,6 @@ while True:
         elif x>=m:
             x-=1
             y+=1
-        elif num>(n*m):
-            break
         else:
             break
     if num>(n*m):
